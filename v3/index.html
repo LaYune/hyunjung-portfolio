@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f9f6f0">
   <meta name="description" content="HyunJung Kwak: an evidence-led portfolio in UK market insight, audience research, performance diagnosis and commercial problem solving. Individual contributions and project boundaries made explicit.">
-  <title>HyunJung Kwak | Insight & Decision Support | Portfolio V3</title>
+  <title>HyunJung Kwak | Insight & Decision Support | Portfolio V3.1</title>
   <style>
     :root{--bg:#f9f6f0;--paper:#fffefa;--ink:#282b2c;--muted:#656768;--stroke:#dedbd3;--pine:#174c4a;--pine-soft:#e5eeea;--sienna:#985e43;--sand:#f3e8dc;--radius:18px;--max:1150px}
     *{box-sizing:border-box}
@@ -124,143 +124,296 @@
     @media(max-width:390px){.links a:nth-child(2){display:none}.process{grid-template-columns:1fr}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
   </style>
+<style>
+/* V3.1: explicit company -> capability -> contribution -> detail -> outcome hierarchy */
+.role-stack{display:grid;gap:20px}
+.role-case{display:grid;grid-template-columns:310px minmax(0,1fr);background:var(--paper);border:1px solid var(--stroke);border-radius:var(--radius);overflow:hidden}
+.role-identity{background:#e6ede7;padding:29px;display:flex;flex-direction:column;align-items:flex-start;border-right:1px solid #d4dfd6}
+.role-case:nth-child(3n+2) .role-identity{background:#f0ebe3;border-right-color:#e6dfd4}
+.role-case:nth-child(3n) .role-identity{background:#f1e9e0;border-right-color:#e6dcd1}
+.case-index{font:400 39px/1 Georgia,serif;color:#8ca99c;margin-bottom:28px}
+.case-kind{font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#51766c;font-size:10px}
+.role-identity h3{font:400 31px/1.15 Georgia,serif;letter-spacing:-.032em;margin:12px 0 12px}
+.role-context{font-size:12px;color:#5f6963;margin:0}
+.role-link{margin-top:auto;display:flex;flex-direction:column;gap:11px;padding-top:25px}
+.role-content{padding:28px 32px}
+.field-title{display:block;letter-spacing:.13em;text-transform:uppercase;font-size:10px;color:#986c52;font-weight:850;margin-bottom:9px}
+.case-block{margin-bottom:21px}
+.capability-list{display:flex;gap:7px;flex-wrap:wrap}
+.capability-list span{border-radius:99px;border:1px solid #bccfca;padding:5px 11px;background:#f5f9f5;color:#27534b;font-size:11px;font-weight:750}
+.capability-list.compact{margin:10px 0 23px}
+.main-contribution{font-size:15px;line-height:1.58;color:#35423e;font-weight:630;margin:0}
+.work-list{margin:0;padding-left:20px;display:grid;gap:6px}
+.work-list li{font-size:13px;line-height:1.62;color:#56615d;padding-left:2px}
+.outcome-panel{background:#eaf0e9;border-radius:11px;padding:17px 19px;margin-top:3px}
+.outcome-panel .field-title{color:#476b5d}
+.outcome-panel p{font-size:13px;color:#3b5148;margin:0}
+.scope-note{margin:15px 0 0;color:#73716c;font-size:11px;line-height:1.6}
+.scope-note strong{color:#62574c}
+.method-footnote{background:#f7f4ed;border:1px solid var(--stroke);border-radius:12px;padding:20px 22px;margin-top:18px;color:#665f54;font-size:12px;line-height:1.7}
+.evidence-team{display:flex;flex-direction:column;gap:10px;background:var(--paper)}
+.evidence-team h3{margin:1px 0 7px}
+.evidence-team .main-contribution{font-size:13px}
+.evidence-team details{padding:10px 0}
+.evidence-team details .work-list{padding-top:12px}
+.evidence-team .team-output{background:#edf2eb;border-radius:9px;padding:13px}
+.evidence-team .team-output p{font-size:12px;color:#455951;margin:0}
+.evidence-team .scope-note{margin-top:auto}
+.disclosure{margin-top:30px;background:#fffdf7;border:1px solid var(--stroke);border-radius:14px;padding:22px}
+.disclosure p{font-size:12px;color:#686863;line-height:1.7;margin:11px 0 0}
+.disclosure a{color:var(--pine)}
+@media(max-width:1050px){.role-case{grid-template-columns:255px minmax(0,1fr)}.role-identity{padding:25px}.role-content{padding:25px}.links{gap:14px}}
+@media(max-width:720px){.role-case{grid-template-columns:1fr}.role-identity{border-right:0!important;border-bottom:1px solid var(--stroke);padding:24px}.role-identity h3{font-size:27px}.case-index{margin-bottom:15px}.role-link{margin-top:0;padding-top:13px}.role-content{padding:23px}.links a:nth-child(3),.links a:nth-child(4),.links a:nth-child(5){display:none}.hero{padding-top:50px}.hero-note p{font-size:23px}}
+@media(max-width:420px){.links a:nth-child(2){display:none}}
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <div class="topbar"><nav class="wrap nav" aria-label="Main navigation">
     <a class="signature" href="#top"><strong>HYUNJUNG KWAK</strong><small>Insight, with evidence</small></a>
-    <div class="links"><a href="#featured">Selected work</a><a href="#projects">More projects</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#contact">Contact</a><span class="version">PORTFOLIO / V3</span></div>
+    <div class="links"><a href="#professional">Experience</a><a href="#independent">Market work</a><a href="#research">Research</a><a href="#team-projects">Team projects</a><a href="#experience">Background</a><a href="#contact">Contact</a><span class="version">PORTFOLIO / V3</span></div>
   </nav></div>
   <main id="main">
-    <header class="wrap hero" id="top">
-      <div>
-        <span class="eyebrow">Market & commercial insight / UK early-career portfolio</span>
-        <h1>When the numbers look convincing, I ask <em>what they actually mean.</em></h1>
-        <p class="lead">I work from evidence to diagnosis, then turn the pattern into a practical next step. My experience brings together paid performance analysis, UK audience research and independently designed market and retail portfolios.</p>
-        <div class="actions"><a class="button" href="#featured">Explore the evidence ↓</a><a class="button secondary" href="#experience">See my experience</a></div>
-      </div>
-      <aside class="hero-note" aria-label="How to read this portfolio">
-        <span class="eyebrow">What you will find</span>
-        <p>Real questions.<br>My contribution.<br>Reasoned conclusions.<br>Clear boundaries.</p>
-        <ul>
-          <li><strong>Professional work</strong>Performance diagnosis, communication and follow-up</li>
-          <li><strong>UK internship</strong>Audience research informing founder-level planning</li>
-          <li><strong>Independent projects</strong>Self-built analysis with explicit data limitations</li>
-        </ul>
-      </aside>
-    </header>
-    <section class="section wrap" id="featured" aria-labelledby="featured-title">
-      <div class="section-heading"><div class="overline">01 / Strongest evidence</div><div><h2 id="featured-title">Three examples, three different kinds of evidence.</h2><p>What I examined, how I made sense of it, what I recommended and what actually happened. Each case separates my individual work from observations and proposed outcomes.</p></div></div>
-      <div class="claimstrip" aria-label="Evidence at a glance">
-        <div class="claim"><b>Paid professional work · 2020–2025</b><span>Performance patterns and later progress review, not a renamed analyst position.</span></div>
-        <div class="claim"><b>UK voluntary internship · 2026</b><span>Independently written insight report and content planning with a founder.</span></div>
-        <div class="claim"><b>Self-directed Power BI · 2026</b><span>Candidate-selected questions, measures, comparisons and visuals using public data.</span></div>
-      </div>
-      <div class="featured">
-        <article class="case">
-          <div class="case-main">
-            <div class="case-side"><div><div class="case-number">01</div><div class="kind">UK voluntary internship · Feb–May 2026</div><h3>The Pathfinder Organisation CIC</h3><p>Audience and brand-search interpretation</p></div><div class="tag-list"><span class="tag">Google Trends</span><span class="tag">Desk research</span><span class="tag">Stakeholder planning</span></div></div>
-            <div class="case-body">
-              <p class="eyebrow">The question</p><h3 class="question">Does interest in “Pathfinder” tell us anything reliable about prospective international students?</h3>
-              <div class="evidence-grid">
-                <div><h4>My action</h4><p>Independently researched UK Google Trends (2021–2026) and the organisation’s brand/social content, then wrote and submitted an audience insight report.</p></div>
-                <div><h4>What I identified</h4><p>The name overlapped with unrelated gaming and automotive interest. A broad brand-search signal was not a clean proxy for the intended audience.</p></div>
-                <div><h4>Recommendation</h4><p>Use more specific international-student keywords and a three-colour narrative for connection, adaptation and opportunity.</p></div>
-                <div><h4>What followed</h4><p>Co-planned Instagram content ideas with the founder. Founder and Marketing Manager feedback was positive; the ideas were not launched during the internship.</p></div>
-              </div>
-              <div class="case-links"><a class="inline-link" href="#research">Related: separate student interview project ↘</a></div>
-            </div>
-          </div>
-          <div class="case-outcome"><b>Evidence boundary</b><p>Internal planning is confirmed. An increase in traffic, followers, reach or sales is not claimed. The separate “What Is Home?” research involved at least 10 face-to-face international-student interviews.</p></div>
-        </article>
-        <article class="case">
-          <div class="case-main">
-            <div class="case-side"><div><div class="case-number">02</div><div class="kind">Independent analytical portfolio · Oct 2026</div><h3>Lidl GB</h3><p>UK grocery comparisons in Power BI</p></div><div class="tag-list"><span class="tag">Power BI</span><span class="tag">Power Query</span><span class="tag">DAX</span></div></div>
-            <div class="case-body">
-              <p class="eyebrow">The question</p><h3 class="question">Which comparisons distinguish Lidl’s market position from its potential drivers?</h3>
-              <div class="evidence-grid">
-                <div><h4>My action</h4><p>Chose the analytical questions, KPIs and visual priorities; built a dashboard from public UK grocery evidence using Excel, Power Query, Power BI and DAX.</p></div>
-                <div><h4>Comparison logic</h4><p>Selected market share, competitor gaps, switching and proposed store expansion as different lenses rather than treating them as interchangeable measures.</p></div>
-                <div><h4>Analytical judgement</h4><p>Source, market definition and reporting period matter. A market-share difference in percentage points is not the same as relative percentage growth.</p></div>
-                <div><h4>Actual output</h4><p>An independent Power BI portfolio and interpretation framework. Public inputs, not internal Lidl customer or sales data.</p></div>
-              </div>
-              <div class="case-links"><a class="inline-link" target="_blank" rel="noopener noreferrer" href="https://lnkd.in/p/enpx8eei">View Lidl project on LinkedIn ↗</a><a class="inline-link" href="../v2/#lidl">Optional V2 interactive demonstration ↗</a></div>
-            </div>
-          </div>
-          <div class="case-outcome"><b>Evidence boundary</b><p>No Lidl commission, deployed recommendation or commercial uplift is claimed. The V2 website demonstration uses illustrative figures, not the project's original raw market data.</p></div>
-        </article>
-        <article class="case">
-          <div class="case-main">
-            <div class="case-side"><div><div class="case-number">03</div><div class="kind">Paid professional employment · South Korea</div><h3>Lingua & Kookje</h3><p>Performance diagnosis and stakeholder follow-up</p></div><div class="tag-list"><span class="tag">Performance records</span><span class="tag">KPI reporting</span><span class="tag">Recommendations</span></div></div>
-            <div class="case-body">
-              <p class="eyebrow">The question</p><h3 class="question">What was holding different learners back, and how should the next action change?</h3>
-              <div class="evidence-grid">
-                <div><h4>My action</h4><p>Compared session results, earlier exams, class averages and question-level errors; diagnosed recurring gaps, communicated tailored next steps and reviewed later performance.</p></div>
-                <div><h4>Method</h4><p>Structured individual progress by Reading, Listening, Speaking, Writing and chapter-level weaknesses to distinguish needs within shared classes.</p></div>
-                <div><h4>Stakeholder work</h4><p>Explained findings to learners, families and internal staff. At Kookje, prepared KPI-related reporting and recommendations for management/clients.</p></div>
-                <div><h4>Observed measures</h4><p>At Lingua, supported approximately 50 learner/family stakeholders with around 95–100% retention in the assigned portfolio. Kookje’s assigned area recorded approximately 15% more new enrolments over one year.</p></div>
-              </div>
-            </div>
-          </div>
-          <div class="case-outcome"><b>Evidence boundary</b><p>Both positions were Teacher, Faculty Affairs Office, not business analyst roles. Metrics are restricted to their stated portfolios/areas and do not establish individual causation. The precise employer for the skill/chapter-level method still needs confirmation.</p></div>
-        </article>
-      </div>
-    </section>
-    <section class="section secondary-bg" id="projects">
-      <div class="wrap">
-        <div class="section-heading"><div class="overline">02 / Independent & academic</div><div><h2>Other questions I have worked through.</h2><p>Selected because they demonstrate market comparison, problem framing, qualitative research and commercial reasoning rather than filling a page with project titles.</p></div></div>
-        <div class="card-grid">
-          <article class="smallcase"><div class="meta">Independent Power BI · Oct 2026</div><h3>FitFlop UK: visibility is not sales.</h3><p>Personally created two Power BI pages comparing public product/pricing information and five-year UK Google Trends <strong>relative search-interest indices</strong> across brands.</p><p>Chose the competitor lens and what each visual should emphasise. Search interest signals curiosity, not verified conversion, revenue or market share.</p><div class="project-link"><a class="inline-link" href="https://lnkd.in/p/eTghxzqN" target="_blank" rel="noopener noreferrer">View FitFlop project ↗</a></div><div class="limit"><strong>Limit:</strong> no internal brand data or measured business outcome.</div></article>
-          <article class="smallcase"><div class="meta">Independent MSc project · University of Birmingham IEC</div><h3>MODCASE: features versus reasons to buy.</h3><p>Independently developed a modular travel-storage concept from customer problem to competitor review, differentiation, customer journey and proposed revenue model.</p><p>Reviewed products listed across online retail platforms. Explored product sales, add-ons and possible B2B routes, while questioning whether useful features create a real purchase reason.</p><div class="limit"><strong>Limit:</strong> concept and revenue mix are proposals, not actual sales, validated demand or a launched product.</div></article>
-          <article class="smallcase" id="research"><div class="meta">MSc academic research · 2026</div><h3>What makes brand content credible?</h3><p>Conducted <strong>18 in-depth interviews</strong> with UK Gen Z colour-cosmetics consumers and analysed <strong>10 brand-published short-form videos</strong> using qualitative/thematic analysis.</p><p>Examined recurring themes around trust, credibility and consumer decisions. Separately, completed SPSS analysis on a <strong>917-respondent</strong> coursework dataset, alongside a qualitative coding assessment of 10 transcripts.</p><div class="limit"><strong>Limit:</strong> university research and coursework, not paid client research. Interview counts and datasets belong to separate tasks.</div></article>
-          <article class="smallcase"><div class="meta">UK voluntary internship · Separate research project</div><h3>What Is Home? Listening for the common thread.</h3><p>Personally conducted <strong>at least 10 in-person interviews</strong> with international students. Synthesised differing descriptions of “home” into a recurring idea of emotional safety.</p><p>This was distinct from the Pathfinder brand-search report. It shows interview-based sense-making rather than quantitative market analysis.</p><div class="limit"><strong>Limit:</strong> qualitative themes from a small project sample; not representative population-level findings.</div></article>
-        </div>
-      </div>
-    </section>
-    <section class="section wrap" id="team-projects">
-      <div class="section-heading"><div class="overline">03 / Team proposals</div><div><h2>Contributions to bigger ideas.</h2><p>For these projects, the distinction matters: the team produced the deck, while the individual contribution below is what I can personally explain.</p></div></div>
-      <div class="teams">
-        <article class="team"><span class="eyebrow">CIM The Pitch · 2026</span><h3>IBM Green AI</h3><p class="my-role"><strong>My contribution:</strong> drafted risk and SMART-related material and contributed practical workshop, potential smaller-organisation engagement and budget-allocation ideas.</p><p><strong>Team proposal:</strong> a £400,000 Year-One engagement/campaign plan with multiple activities.</p><p class="boundary"><strong>Not claimed:</strong> budget spent, workshops delivered, all budget figures personally calculated or measured campaign outcomes.</p></article>
-        <article class="team"><span class="eyebrow">L’Oréal Brandstorm · 2026</span><h3>SCENTIFY</h3><p class="my-role"><strong>My contribution:</strong> customer-value and personalised fragrance ideas, including individual scent/skin differences and cultural context, in team discussions.</p><p><strong>Team proposal:</strong> an AR/AI-linked fragrance concept with aspirational launch measures.</p><p class="boundary"><strong>Not claimed:</strong> personal LTV financial modelling, individual ownership of proposed KPIs or a commercial product launch.</p></article>
-        <article class="team"><span class="eyebrow">Brand strategy project · 2026</span><h3>Innisfree / Global Gen Z</h3><p class="my-role"><strong>My contribution:</strong> proposed Innisfree as the team focus and contributed ideas about Korean-versus-international positioning and everyday UV protection.</p><p><strong>Project output:</strong> explored global/local positioning, sun-care messaging and community concepts.</p><p class="boundary"><strong>Not claimed:</strong> statistically proven cross-country differences, launched campaigns or an independently verified competition award.</p></article>
-      </div>
-    </section>
-    <section class="section secondary-bg" id="approach">
-      <div class="wrap"><div class="section-heading"><div class="overline">04 / My working method</div><div><h2>A useful answer is more than a dashboard.</h2><p>My strongest working pattern is structured, independently owned analysis followed by clear stakeholder discussion. I separate observed results from what still needs testing.</p></div></div>
-        <div class="process">
-          <div class="phase"><span>01</span><h3>Define</h3><p>What decision is being made? Which measure represents it?</p></div>
-          <div class="phase"><span>02</span><h3>Examine</h3><p>Compare available sources, segments, periods and definitions.</p></div>
-          <div class="phase"><span>03</span><h3>Diagnose</h3><p>Look for recurring patterns and alternative explanations.</p></div>
-          <div class="phase"><span>04</span><h3>Recommend</h3><p>Explain the implication and a realistic next action.</p></div>
-          <div class="phase"><span>05</span><h3>Check</h3><p>Clarify limitations and what evidence is needed after action.</p></div>
-        </div>
-      </div>
-    </section>
-    <section class="section wrap" id="experience">
-      <div class="section-heading"><div class="overline">05 / Background</div><div><h2>Where the evidence comes from.</h2><p>Paid employment, a voluntary internship, self-directed work and university projects are separate categories. The chronology is deliberately visible.</p></div></div>
-      <div class="career">
-        <div><span class="eyebrow">Employment & internship</span><div class="timeline">
-          <div class="job"><b>The Pathfinder Organisation CIC · Marketing Intern (Voluntary)</b><time datetime="2026-02">Feb–May 2026 · United Kingdom</time><p>Independent UK audience report, search-content research, international-student interviews and founder-level content planning.</p></div>
-          <div class="job"><b>Lingua Language Institute · Teacher, Faculty Affairs Office</b><time datetime="2021-10">Oct 2021–Feb 2025 · South Korea</time><p>Learning-performance diagnosis, stakeholder progress communication, recommendations and later exam review.</p></div>
-          <div class="job"><b>Kookje Foreign Language Institute · Teacher, Faculty Affairs Office</b><time datetime="2020-08">Aug 2020–Sep 2021 · South Korea</time><p>Performance-related reporting, error-pattern reviews, enrolment consultations and recommended next steps.</p></div>
-        </div></div>
-        <aside class="academic-note"><h3>Education & selected tools</h3><p><strong>University of Birmingham</strong><br>MSc Marketing, 2025–2026 · Degree pending at the time of this version</p><p><strong>Busan University of Foreign Studies</strong><br>BA English, 2017–2019</p>
-          <div class="course"><span class="eyebrow">Tools in demonstrated context</span><ul><li>Power BI, Power Query and DAX: independent Lidl/FitFlop work</li><li>SPSS: MSc quantitative coursework</li><li>Excel, Google Trends and desk/competitor research</li></ul></div>
-          <div class="course"><span class="eyebrow">Selected training</span><p>Google Analytics Certification (Oct 2026); Microsoft Power BI data course (Oct 2026); Microsoft Excel data-preparation course (Sep 2026).</p><p>Certifications are not represented as advanced professional tool experience.</p></div>
-        </aside>
-      </div>
-    </section>
-    <section class="section wrap" id="boundaries">
-      <div class="section-heading"><div class="overline">06 / Transparency</div><div><h2>What this portfolio does and does not show.</h2><p>These boundaries are intentional. A credible case study says what is known, what is proposed and what would need to be verified.</p></div></div>
-      <div class="narrow">
-        <details><summary>Are these commercial client engagements?</summary><p>No. Lidl and FitFlop are candidate-initiated portfolios using public data. IBM, L’Oréal and Innisfree are team/brand-strategy proposals. MSc research is academic. Pathfinder was a UK voluntary internship. None of these is presented as a paid brand consultancy engagement.</p></details>
-        <details><summary>Are the percentages and budgets achieved results?</summary><p>The approximately 95–100% Lingua retention is an observation within an assigned learner/family portfolio, not organisation-wide proof of cause. Kookje’s approximately 15% annual new-enrolment rise relates to the assigned area and is not solely attributed to the candidate. The IBM £400,000 engagement budget is a team proposal, not money spent. MODCASE’s commercial projections are assumptions, not sales.</p></details>
-        <details><summary>Can online search data establish market performance?</summary><p>Not by itself. Google Trends numbers are normalised indices of relative search interest, not units sold, revenue or conversion. Public market reports and retailer figures must be compared only with compatible dates, sources and market definitions.</p></details>
-        <details><summary>Are the linked demonstrations using live company data?</summary><p>No. The optional V2 market-share website explorer and commercial KPI exercise use illustrative data. They are teaching/demonstration interfaces, not an authorised company dashboard. Private client data and confidential business materials are not published here.</p></details>
-      </div>
-    </section>
-    <section class="contact" id="contact"><div class="wrap contact-inner"><div><span class="eyebrow" style="color:#c7e2d5">07 / Connect</span><h2>Interested in the reasoning behind the work?</h2><p>I am exploring early-career market, commercial, category and audience insight opportunities in the UK. The portfolio is intended to make the evidence and my judgement easy to discuss.</p></div><a class="button" href="https://www.linkedin.com/in/takethiscandidate" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div></section>
-  </main>
-  <footer class="wrap footer"><span>© 2026 HyunJung Kwak · Independent evidence-led portfolio · V3 draft · 6 Nov 2026</span><span>No featured brand has commissioned or endorsed the independent portfolio analyses. <a href="../v2/">View V2</a> · <a href="#top">Back to top ↑</a></span></footer>
+  <header class="wrap hero" id="top">
+    <div>
+      <span class="eyebrow">Market & commercial analysis · Insight communication · Decision support</span>
+      <h1>I connect the evidence to <em>what should happen next.</em></h1>
+      <p class="lead">My work spans paid performance analysis, a UK voluntary marketing internship and independently built UK market portfolios. Each example explains the capability used, what I personally did and the outcome that can actually be supported.</p>
+      <div class="actions"><a class="button" href="#professional">Explore experience ↓</a><a class="button secondary" href="#independent">View market projects</a></div>
+    </div>
+    <aside class="hero-note" aria-label="How this portfolio is organised">
+      <span class="eyebrow">How to read each case</span>
+      <p>Where I worked.<br>What I brought.<br>What I did.<br>What followed.</p>
+      <ul>
+        <li><strong>01 · Company / Project</strong>Employer, role, project type and period</li>
+        <li><strong>02 · Core capability</strong>Which relevant skills are demonstrated</li>
+        <li><strong>03 · Main contribution</strong>What I was personally responsible for</li>
+        <li><strong>04 · Detailed work & output</strong>Method, deliverable and honest outcome</li>
+      </ul>
+    </aside>
+  </header>
+  <section class="section wrap" id="professional" aria-labelledby="professional-title">
+    <div class="section-heading"><div class="overline">01 / UK internship & paid work</div><div><h2 id="professional-title">Professional experience, made specific.</h2><p>The organisations I worked for, the analytical capability I used, the work I actually performed and how evidence informed communication or follow-up.</p></div></div>
+    <div class="role-stack"><article class="role-case" id="pathfinder">
+  <div class="role-identity">
+    <span class="case-index">01</span>
+    <span class="case-kind">UK voluntary internship</span>
+    <h3>The Pathfinder Organisation CIC</h3>
+    <p class="role-context">Marketing Intern (Voluntary)<br>February–May 2026</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Audience research</span><span>Insight translation</span><span>Stakeholder communication</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Independently developed a UK audience insight report to distinguish relevant international-student search interest from unrelated traffic, then helped translate the findings into founder-level content planning.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Reviewed UK Google Trends (2021–2026) and the organisation’s social/brand content.</li><li>Identified overlap between “Pathfinder” searches and unrelated gaming and automotive topics.</li><li>Recommended audience-specific search terms and a three-colour storytelling framework for connection, adaptation and opportunity.</li><li>Co-planned Instagram feed concepts with the founder after presenting the research.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Audience report written and submitted. Founder and Marketing Manager feedback was positive; content concepts informed planning but were not launched during the internship.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> No follower, reach, traffic or commercial uplift is claimed. The separate “What Is Home?” interviews appear below.</p>
+  </div>
+</article>
+<article class="role-case" id="lingua">
+  <div class="role-identity">
+    <span class="case-index">02</span>
+    <span class="case-kind">Paid professional employment</span>
+    <h3>Lingua Language Institute</h3>
+    <p class="role-context">Teacher, Faculty Affairs Office<br>October 2021–February 2025 · South Korea</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Performance diagnosis</span><span>Stakeholder communication</span><span>Progress follow-up</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Used learner-performance evidence to identify recurring problems, recommend tailored action and explain progress to learners, families and teaching teams.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Compared current and historical exam results, class averages, learning records and question-level errors.</li><li>Explained identified learning gaps and next steps during learner/family progress consultations.</li><li>Reviewed later exam performance to track whether gaps persisted and where further support was needed.</li><li>Managed approximately 50 assigned learners/families and coordinated with teaching and administrative colleagues.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Approximately 95–100% retention observed within the assigned learner/family portfolio.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> Retention refers only to the candidate’s assigned portfolio, not the whole institute; no causal impact on retention is established.</p>
+  </div>
+</article>
+<article class="role-case" id="kookje">
+  <div class="role-identity">
+    <span class="case-index">03</span>
+    <span class="case-kind">Paid professional employment</span>
+    <h3>Kookje Foreign Language Institute</h3>
+    <p class="role-context">Teacher, Faculty Affairs Office<br>August 2020–September 2021 · South Korea</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>KPI reporting</span><span>Performance analysis</span><span>Recommendation communication</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Analysed learning-performance patterns and feedback to prepare KPI-related reporting and communicate potential next steps to management and stakeholders.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Reviewed monthly performance evidence, earlier results, feedback and question-level errors.</li><li>Prepared performance/KPI reporting and communicated findings and recommendations to senior management and clients.</li><li>Supported enrolment consultations and performance-improvement recommendations.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>New enrolments in the assigned area increased by approximately 15% over a one-year period.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> The increase is an area-level observation, not a company-wide result or proof that the candidate individually caused the change.</p>
+  </div>
+</article></div>
+    <div class="method-footnote"><strong>Additional verified cross-role method:</strong> structured individual learner evidence by Reading, Listening, Speaking, Writing and learning chapter to identify different gaps within shared classes and inform parent consultations. The exact employer association of this method is still to be confirmed, so it is not assigned to Lingua or Kookje above.</div>
+  </section>
+  <section class="section secondary-bg" id="independent" aria-labelledby="independent-title"><div class="wrap">
+    <div class="section-heading"><div class="overline">02 / Self-directed UK market work</div><div><h2 id="independent-title">Independent market analysis.</h2><p>These are portfolio investigations of real brands using public information, not employment, commissioned research or verified business impact. The choice of questions, measures and visuals was mine.</p></div></div>
+    <div class="role-stack"><article class="role-case" id="lidl">
+  <div class="role-identity">
+    <span class="case-index">04</span>
+    <span class="case-kind">Independent market portfolio · Oct 2026</span>
+    <h3>Lidl GB</h3>
+    <p class="role-context">Self-initiated Power BI analysis<br>Not employment or commissioned brand work</p>
+    <div class="role-link"><a class="inline-link" href="https://lnkd.in/p/enpx8eei" target="_blank" rel="noopener noreferrer">See original Lidl portfolio ↗</a><a class="inline-link" href="../v2/#lidl">V2 interactive illustration ↗</a></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Market & competitor analysis</span><span>KPI selection</span><span>Power BI / DAX</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Independently selected analytical questions and KPI comparisons, then built a Power BI dashboard to examine Lidl’s position in the UK grocery market.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Used publicly available UK grocery-market evidence with Excel, Power Query, Power BI and DAX.</li><li>Compared retailer share, competitor gaps, switching indicators and proposed store expansion as distinct signals.</li><li>Selected visual priorities and considered source, reporting-period and market-definition comparability.</li><li>Distinguished percentage-point share differences from relative percentage growth.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Completed an independently designed analytical dashboard and comparison framework.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> No internal Lidl data, client engagement, implemented recommendation or verified sales uplift.</p>
+  </div>
+</article>
+<article class="role-case" id="fitflop">
+  <div class="role-identity">
+    <span class="case-index">05</span>
+    <span class="case-kind">Independent market portfolio · Oct 2026</span>
+    <h3>FitFlop UK</h3>
+    <p class="role-context">Self-initiated Power BI analysis<br>Not employment or commissioned brand work</p>
+    <div class="role-link"><a class="inline-link" href="https://lnkd.in/p/eTghxzqN" target="_blank" rel="noopener noreferrer">See original FitFlop portfolio ↗</a></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Brand & competitor analysis</span><span>Search-interest interpretation</span><span>Data storytelling</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Designed two Power BI pages examining public product/pricing information alongside five-year UK Google Trends relative search-interest indices across competitors.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Selected the comparison questions, measures and narrative emphasis independently.</li><li>Reviewed public competitor pricing/product evidence and relative branded-search interest.</li><li>Interpreted Google Trends as an indexed search signal, not a direct proxy for purchases or brand revenue.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Two-page independent Power BI portfolio presenting the comparisons and their interpretive limits.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> No private company data, validated brand sales numbers, conversion figures or proven commercial outcome.</p>
+  </div>
+</article></div>
+  </div></section>
+  <section class="section wrap" id="research" aria-labelledby="research-title">
+    <div class="section-heading"><div class="overline">03 / Research & commercial projects</div><div><h2 id="research-title">From consumer questions to commercial ideas.</h2><p>Original academic research, a separate internship interview project and one independently developed commercial concept. Their methods and outcomes are deliberately differentiated.</p></div></div>
+    <div class="role-stack"><article class="role-case" id="msc-research">
+  <div class="role-identity">
+    <span class="case-index">06</span>
+    <span class="case-kind">University research · 2026</span>
+    <h3>University of Birmingham</h3>
+    <p class="role-context">MSc Marketing consumer research<br>Academic study and separate coursework</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Qualitative research</span><span>Thematic analysis</span><span>Quantitative interpretation</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Investigated how UK Gen Z cosmetics consumers understand credibility and trust in branded short-form video content, using an original interview study and brand-video analysis.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Conducted 18 in-depth interviews with UK Gen Z colour-cosmetics consumers.</li><li>Analysed 10 brand-published short-form videos using qualitative/thematic methods.</li><li>Separately analysed a 917-respondent dataset in SPSS coursework using cross-tabulation, chi-square/Cramer’s V and regression.</li><li>In a separate qualitative assessment, coded 10 interview transcripts using a Gioia-based approach.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Completed the MSc research work and separate quantitative/qualitative coursework analyses.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> Academic research, not employed or commissioned client research; 18 interviews, 10 videos, the 917-respondent dataset and transcript-coding coursework are distinct activities.</p>
+  </div>
+</article>
+<article class="role-case" id="what-is-home">
+  <div class="role-identity">
+    <span class="case-index">07</span>
+    <span class="case-kind">Separate voluntary-internship research project</span>
+    <h3>What Is Home?</h3>
+    <p class="role-context">The Pathfinder Organisation CIC<br>International-student qualitative research · 2026</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>In-person interviewing</span><span>Theme synthesis</span><span>Audience empathy</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Conducted face-to-face interviews with international students to understand differences and commonalities in what the idea of home meant to them.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Personally interviewed at least 10 international students in person.</li><li>Compared differing answers and identified emotional safety as a recurring shared theme.</li><li>Synthesised the qualitative evidence separately from the Pathfinder brand-search report.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>A qualitative recurring theme and interview-based research evidence for the project.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> A small qualitative project sample; not a statistically representative measure of all international students.</p>
+  </div>
+</article>
+<article class="role-case" id="modcase">
+  <div class="role-identity">
+    <span class="case-index">08</span>
+    <span class="case-kind">Independent academic commercial project</span>
+    <h3>MODCASE</h3>
+    <p class="role-context">University of Birmingham IEC<br>Self-developed modular travel-storage concept · 2026</p>
+    <div class="role-link"></div>
+  </div>
+  <div class="role-content">
+    <div class="case-block"><span class="field-title">Core capabilities</span>
+      <div class="capability-list"><span>Commercial problem solving</span><span>Competitor review</span><span>Business model design</span></div>
+    </div>
+    <div class="case-block"><span class="field-title">Main contribution</span><p class="main-contribution">Personally developed a modular travel-storage concept from the initial customer problem through competitor research, differentiation and a proposed commercial model.</p></div>
+    <div class="case-block"><span class="field-title">What I specifically did</span>
+      <ul class="work-list"><li>Reviewed competing travel products already listed on multiple online retail platforms.</li><li>Compared feature-level differentiation with a genuine reason customers might purchase.</li><li>Developed a proposed customer journey and revenue routes covering B2C product sales, modular add-ons and potential B2B customers.</li><li>Built the conceptual commercial proposal without claiming a market launch.</li></ul>
+    </div>
+    <div class="outcome-panel"><span class="field-title">Output / observed outcome</span><p>Completed an independent university concept and proposed business model.</p></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> Revenue mix was hypothetical, with no verified sales, user validation, partnership agreements or realised commercial outcome.</p>
+  </div>
+</article></div>
+  </section>
+  <section class="section secondary-bg" id="team-projects" aria-labelledby="team-title"><div class="wrap">
+    <div class="section-heading"><div class="overline">04 / Selected team contributions</div><div><h2 id="team-title">My part in collaborative proposals.</h2><p>These entries describe the personal ideas and material I contributed, rather than assigning the full team’s deliverables or proposed metrics to me.</p></div></div>
+    <div class="teams"><article class="team evidence-team">
+  <span class="case-kind">CIM The Pitch · Team competition, 2026</span><h3>IBM Green AI</h3>
+  <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>Risk assessment</span><span>SMART measures</span><span>Practical planning</span></div>
+  <span class="field-title">Main contribution</span><p class="main-contribution">Personally drafted risk/SMART-related material and contributed ideas for workshops, smaller-organisation participation and proposed budget allocation.</p>
+  <details><summary>What I specifically did</summary><ul class="work-list"><li>Contributed ways to make another teammate’s strategy more practical.</li><li>Participated in team discussion and revision of risk, measurement and engagement activities.</li></ul></details>
+  <div class="team-output"><span class="field-title">Team output / status</span><p>Team-produced proposal with a £400,000 Year-One engagement/campaign budget.</p></div>
+  <p class="scope-note"><strong>Evidence boundary:</strong> The budget was not spent; workshops were not evidenced as delivered. Individual ownership of all financial allocations is not claimed.</p>
+</article>
+<article class="team evidence-team">
+  <span class="case-kind">L’Oréal Brandstorm · Team competition, 2026</span><h3>L’Oréal SCENTIFY</h3>
+  <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>Consumer value</span><span>Personalisation</span><span>Cross-market considerations</span></div>
+  <span class="field-title">Main contribution</span><p class="main-contribution">Contributed consumer-centred personalised fragrance ideas involving skin/scent differences and cultural context during the team’s concept discussions.</p>
+  <details><summary>What I specifically did</summary><ul class="work-list"><li>Helped develop ideas for a more individually relevant fragrance proposition.</li><li>Considered how customer preferences and geographical context might affect the value proposition.</li></ul></details>
+  <div class="team-output"><span class="field-title">Team output / status</span><p>A team-developed AR/AI fragrance concept with proposed targets and commercial assumptions.</p></div>
+  <p class="scope-note"><strong>Evidence boundary:</strong> No individual financial LTV calculation, KPI ownership, product launch or actual commercial results are claimed.</p>
+</article>
+<article class="team evidence-team">
+  <span class="case-kind">Brand strategy project · 2026</span><h3>Innisfree / Global Gen Z</h3>
+  <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>Brand positioning</span><span>Cross-market thinking</span><span>Consumer perspective</span></div>
+  <span class="field-title">Main contribution</span><p class="main-contribution">Proposed Innisfree as the focus and contributed ideas about Korean-versus-overseas positioning and everyday UV-protection messages.</p>
+  <details><summary>What I specifically did</summary><ul class="work-list"><li>Brought first-hand experience with the brand to the concept discussion.</li><li>Raised global/local range and sun-care messaging considerations for the team’s proposal.</li></ul></details>
+  <div class="team-output"><span class="field-title">Team output / status</span><p>Team brand-strategy proposal exploring global Gen Z positioning and messaging.</p></div>
+  <p class="scope-note"><strong>Evidence boundary:</strong> Cross-country behaviour differences were hypotheses, not representative findings; official competition designation remains unconfirmed.</p>
+</article></div>
+  </div></section>
+  <section class="section wrap" id="approach">
+    <div class="section-heading"><div class="overline">05 / How I work</div><div><h2>Analysis is useful when it supports a decision.</h2><p>My preferred working rhythm is clear ownership, independent exploration, early alignment and structured stakeholder discussion.</p></div></div>
+    <div class="process">
+      <div class="phase"><span>01</span><h3>Define</h3><p>Specify the decision, population, measure and constraints.</p></div>
+      <div class="phase"><span>02</span><h3>Compare</h3><p>Review sources, segments, time periods and definitions.</p></div>
+      <div class="phase"><span>03</span><h3>Diagnose</h3><p>Identify recurring patterns and rival explanations.</p></div>
+      <div class="phase"><span>04</span><h3>Communicate</h3><p>Translate findings into a specific recommendation.</p></div>
+      <div class="phase"><span>05</span><h3>Follow up</h3><p>Differentiate observed results from what still needs testing.</p></div>
+    </div>
+  </section>
+  <section class="section secondary-bg" id="experience"><div class="wrap">
+    <div class="section-heading"><div class="overline">06 / Background & qualifications</div><div><h2>Transparent chronology and skills.</h2><p>My actual employment titles remain unchanged; independent projects, internships, coursework and competitions are separately identified throughout this portfolio.</p></div></div>
+    <div class="career"><div><span class="eyebrow">Employment & internship</span><div class="timeline">
+      <div class="job"><b>The Pathfinder Organisation CIC · Marketing Intern (Voluntary)</b><time datetime="2026-02">Feb–May 2026 · United Kingdom</time><p>Audience insight report, international-student research and content concept planning.</p></div>
+      <div class="job"><b>Lingua Language Institute · Teacher, Faculty Affairs Office</b><time datetime="2021-10">Oct 2021–Feb 2025 · South Korea</time><p>Performance diagnosis, learner/family communication and progress follow-up.</p></div>
+      <div class="job"><b>Kookje Foreign Language Institute · Teacher, Faculty Affairs Office</b><time datetime="2020-08">Aug 2020–Sep 2021 · South Korea</time><p>KPI-related reporting, performance analysis and recommendations.</p></div>
+    </div></div>
+    <aside class="academic-note"><h3>Education & tools</h3><p><strong>University of Birmingham</strong><br>MSc Marketing (2025–2026) · Degree pending as of this portfolio’s source date</p><p><strong>Busan University of Foreign Studies</strong><br>BA English (2017–2019)</p>
+      <div class="course"><span class="eyebrow">Demonstrated tools</span><ul><li>Power BI / Power Query / DAX: independent market portfolios</li><li>SPSS: quantitative MSc coursework</li><li>Excel, Google Trends and desk/competitor research</li></ul></div>
+      <div class="course"><span class="eyebrow">Certifications & training</span><p>Google Analytics Certification · Google (Oct 2026); Harnessing the Power of Data with Power BI · Microsoft (Oct 2026); Preparing Data for Analysis with Microsoft Excel · Microsoft (Sep 2026).</p><p>Training is not described as advanced employed tool experience.</p></div>
+    </aside></div>
+    <div class="disclosure"><div><span class="eyebrow">Evidence & IP boundaries</span><p>All independent brand analyses use public information and are not endorsed, commissioned or validated by the brands. The earlier <a href="../v2/#lidl">V2 interactive market-share example</a> uses illustrative data, not original Lidl market rows. Academic research and team proposals do not represent client engagements. Reported enrolment and retention figures are observations with the specific scopes noted in their cases.</p></div></div>
+  </div></section>
+  <section class="contact" id="contact"><div class="wrap contact-inner"><div><span class="eyebrow" style="color:#c7e2d5">07 / Connect</span><h2>Let’s talk about how I reached the conclusion.</h2><p>Exploring early-career Market, Commercial, Category, Retail and Audience Insight opportunities in the UK. I am happy to discuss the reasoning and limits behind each example.</p></div><a class="button" href="https://www.linkedin.com/in/takethiscandidate" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div></section>
+</main>
+  <footer class="wrap footer"><span>© 2026 HyunJung Kwak · Independent evidence-led portfolio · V3.1 · 6 Nov 2026</span><span>No featured brand has commissioned or endorsed the independent portfolio analyses. <a href="../v2/">View V2</a> · <a href="#top">Back to top ↑</a></span></footer>
 </body>
 </html>
