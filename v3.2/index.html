@@ -184,7 +184,7 @@
 </style>
 <style>
 /* Four team cases at two columns on desktop: preserve the compact evidence layout */
-@media(min-width:951px){.teams{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(min-width:951px){.teams{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}}
 .creative-case{min-width:0}
 .creative-media{border-top:1px solid var(--stroke);padding-top:15px;display:grid;gap:12px}
 .creative-preview{padding:11px 0 0;border-top:1px solid var(--stroke);border-bottom:0}
@@ -194,6 +194,27 @@
 .creative-note{font-size:11px;color:var(--muted);margin:8px 0 0}
 .creative-case .team-output p strong{color:#214e42}
 @media(max-width:950px){.teams{grid-template-columns:1fr}}
+</style>
+<style>
+/* The video case is always visible above the three existing team cards. */
+.video-feature{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);border:1px solid var(--stroke);border-radius:var(--radius);overflow:hidden;background:var(--paper);margin:24px 0 22px}
+.video-feature-copy{padding:28px 31px}
+.video-feature h3{font:400 30px/1.18 Georgia,serif;letter-spacing:-.03em;margin:10px 0 9px}
+.video-feature-lede{font-size:13px;color:#5c6761;margin:0 0 16px}
+.video-feature .capability-list{margin:0 0 20px}
+.video-feature .main-contribution{font-size:13px;margin:0 0 15px}
+.video-feature-insight{font-size:12px;line-height:1.65;color:#57635d;margin:0 0 15px}
+.video-feature-score{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;background:#eaf0e9;border-radius:10px;padding:12px 14px}
+.video-feature-score .field-title{width:100%;margin:0}
+.video-feature-score strong{font:400 27px/1 Georgia,serif;color:#295b4e}
+.video-feature-score span:not(.field-title){font-size:11px;color:#52685e}
+.video-source-link{display:inline-block;margin-top:17px;color:var(--pine);font-size:12px;font-weight:800;text-underline-offset:4px}
+.video-feature-media{background:#e6ebe6;padding:18px;display:flex;flex-direction:column;justify-content:center;gap:9px;min-width:0}
+.video-feature-media iframe{width:100%;min-height:280px;aspect-ratio:16/9;border:0;border-radius:10px;background:#d7dfd9}
+.video-feature-media p{font-size:11px;color:#52665a;margin:0;line-height:1.6}
+.video-feature-media a{color:var(--pine);font-weight:750}
+@media(max-width:950px){.video-feature{grid-template-columns:1fr}.video-feature-media iframe{min-height:240px}}
+@media(max-width:700px){.video-feature-copy{padding:22px}.video-feature-media{padding:13px}.video-feature-media iframe{min-height:200px}.video-feature h3{font-size:26px}}
 </style>
 </head>
 <body>
@@ -396,7 +417,25 @@
 </article></div>
   </section>
   <section class="section secondary-bg" id="team-projects" aria-labelledby="team-title"><div class="wrap">
-    <div class="section-heading"><div class="overline">04 / Selected team contributions</div><div><h2 id="team-title">My part in collaborative proposals.</h2><p>These examples distinguish my contribution from each group's final output, including an exploratory AI-assisted retail video with its original viewing link.</p></div></div>
+    <div class="section-heading"><div class="overline">04 / Selected team contributions</div><div><h2 id="team-title">My part in collaborative work.</h2><p>An original AI-assisted retail video and selected team proposals. Each example distinguishes my personal contribution from the group result.</p></div></div>
+    <article class="video-feature" id="ai-digital-video" aria-labelledby="video-project-title">
+  <div class="video-feature-copy">
+    <span class="case-kind">University of Birmingham · MSc group coursework · 2026</span>
+    <h3 id="video-project-title">AI-Assisted Retail Video</h3>
+    <p class="video-feature-lede">From an original retail concept to an AI-assisted group film.</p>
+    <div class="capability-list compact"><span>AI-assisted visuals</span><span>Image-to-video</span><span>Video editing</span></div>
+    <span class="field-title">My contribution</span>
+    <p class="main-contribution">Contributed AI-generated visuals, image-to-video production and final editing, while helping coordinate the intended brand story.</p>
+    <p class="video-feature-insight"><strong>What I learnt:</strong> Keeping visuals consistent from scene to scene and controlling object movement were harder than creating a single convincing image.</p>
+    <div class="video-feature-score"><span class="field-title">Group assessment</span><strong>91/100</strong><span>for the group artefact, not an individual AI-production grade</span></div>
+    <p class="scope-note"><strong>Evidence boundary:</strong> Academic group coursework, not paid professional AI/video production.</p>
+    <a class="video-source-link" href="https://www.linkedin.com/posts/hyunjung-kwak-21964b386_group-assignment-for-digital-artefact-ugcPost-7434254320335859712-yC92" target="_blank" rel="noopener noreferrer">▶ Watch original video on LinkedIn ↗</a>
+  </div>
+  <div class="video-feature-media">
+    <iframe title="Original MSc AI-assisted retail video, posted on LinkedIn" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434254320335859712" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p>Original group video preview. If LinkedIn blocks playback, use the <a href="https://www.linkedin.com/posts/hyunjung-kwak-21964b386_group-assignment-for-digital-artefact-ugcPost-7434254320335859712-yC92" target="_blank" rel="noopener noreferrer">direct video link</a>.</p>
+  </div>
+</article>
     <div class="teams"><article class="team evidence-team">
   <span class="case-kind">CIM The Pitch · Team competition, 2026</span><h3>IBM Green AI</h3>
   <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>Risk assessment</span><span>SMART measures</span><span>Practical planning</span></div>
@@ -421,25 +460,7 @@
   <div class="team-output"><span class="field-title">Team output / status</span><p>Team brand-strategy proposal exploring global Gen Z positioning and messaging.</p></div>
   <p class="scope-note"><strong>Evidence boundary:</strong> Cross-country behaviour differences were hypotheses, not representative findings; official competition designation remains unconfirmed.</p>
 </article>
-<article class="team evidence-team creative-case" id="ai-digital-video">
-  <span class="case-kind">University of Birmingham · MSc group coursework · 2026</span><h3>AI-Assisted Retail Video</h3>
-  <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>AI-assisted visual production</span><span>Visual storytelling</span><span>Video editing</span></div>
-  <span class="field-title">My contribution</span><p class="main-contribution">Contributed AI-assisted visuals, image-to-video work and final video editing to a group project built around an original retail concept, while supporting the intended brand story.</p>
-  <details><summary>What I specifically did &amp; learnt</summary><ul class="work-list">
-    <li>Helped translate a creative concept into AI-assisted moving visuals and an edited film.</li>
-    <li>Worked on image-to-video generation and the final cut as part of the group submission.</li>
-    <li>Found that consistency between scenes and controlling object movement were more difficult than generating individually plausible images.</li>
-  </ul></details>
-  <div class="team-output"><span class="field-title">Group outcome</span><p><strong>91/100</strong> for the complete group digital artefact. This was the group's assessment mark, not an individual AI or editing grade.</p></div>
-  <div class="creative-media">
-    <a class="inline-link" href="https://www.linkedin.com/posts/hyunjung-kwak-21964b386_group-assignment-for-digital-artefact-ugcPost-7434254320335859712-yC92" target="_blank" rel="noopener noreferrer">▶ Watch the original group video on LinkedIn ↗</a>
-    <details class="creative-preview"><summary>Open embedded video preview</summary>
-      <div class="creative-embed"><iframe title="MSc group AI-assisted retail video on LinkedIn" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434254320335859712" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-      <p class="creative-note">If the LinkedIn embed is unavailable, use the original post link above. Playback depends on LinkedIn settings.</p>
-    </details>
-  </div>
-  <p class="scope-note"><strong>Evidence boundary:</strong> University group coursework and exploratory AI use, not paid AI production work. The final mark covers the team's complete artefact and does not measure individual technical proficiency.</p>
-</article></div>
+</div>
   </div></section>
   <section class="section wrap" id="approach">
     <div class="section-heading"><div class="overline">05 / How I work</div><div><h2>Analysis is useful when it supports a decision.</h2><p>My preferred working rhythm is clear ownership, independent exploration, early alignment and structured stakeholder discussion.</p></div></div>
