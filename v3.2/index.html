@@ -182,6 +182,19 @@
 .source-inline-note a{color:var(--pine)}
 @media(max-width:720px){.research-stream-title{align-items:flex-start}}
 </style>
+<style>
+/* Four team cases at two columns on desktop: preserve the compact evidence layout */
+@media(min-width:951px){.teams{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+.creative-case{min-width:0}
+.creative-media{border-top:1px solid var(--stroke);padding-top:15px;display:grid;gap:12px}
+.creative-preview{padding:11px 0 0;border-top:1px solid var(--stroke);border-bottom:0}
+.creative-preview summary{font-size:12px;color:var(--pine)}
+.creative-embed{position:relative;aspect-ratio:16 / 9;width:100%;overflow:hidden;background:#e7ebe7;border-radius:12px;margin-top:12px}
+.creative-embed iframe{border:0;position:absolute;width:100%;height:100%;inset:0}
+.creative-note{font-size:11px;color:var(--muted);margin:8px 0 0}
+.creative-case .team-output p strong{color:#214e42}
+@media(max-width:950px){.teams{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -383,7 +396,7 @@
 </article></div>
   </section>
   <section class="section secondary-bg" id="team-projects" aria-labelledby="team-title"><div class="wrap">
-    <div class="section-heading"><div class="overline">04 / Selected team contributions</div><div><h2 id="team-title">My part in collaborative proposals.</h2><p>These entries describe the personal ideas and material I contributed, rather than assigning the full team’s deliverables or proposed metrics to me.</p></div></div>
+    <div class="section-heading"><div class="overline">04 / Selected team contributions</div><div><h2 id="team-title">My part in collaborative proposals.</h2><p>These examples distinguish my contribution from each group's final output, including an exploratory AI-assisted retail video with its original viewing link.</p></div></div>
     <div class="teams"><article class="team evidence-team">
   <span class="case-kind">CIM The Pitch · Team competition, 2026</span><h3>IBM Green AI</h3>
   <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>Risk assessment</span><span>SMART measures</span><span>Practical planning</span></div>
@@ -407,6 +420,25 @@
   <details><summary>What I specifically did</summary><ul class="work-list"><li>Brought first-hand experience with the brand to the concept discussion.</li><li>Raised global/local range and sun-care messaging considerations for the team’s proposal.</li></ul></details>
   <div class="team-output"><span class="field-title">Team output / status</span><p>Team brand-strategy proposal exploring global Gen Z positioning and messaging.</p></div>
   <p class="scope-note"><strong>Evidence boundary:</strong> Cross-country behaviour differences were hypotheses, not representative findings; official competition designation remains unconfirmed.</p>
+</article>
+<article class="team evidence-team creative-case" id="ai-digital-video">
+  <span class="case-kind">University of Birmingham · MSc group coursework · 2026</span><h3>AI-Assisted Retail Video</h3>
+  <span class="field-title">Core capabilities</span><div class="capability-list compact"><span>AI-assisted visual production</span><span>Visual storytelling</span><span>Video editing</span></div>
+  <span class="field-title">My contribution</span><p class="main-contribution">Contributed AI-assisted visuals, image-to-video work and final video editing to a group project built around an original retail concept, while supporting the intended brand story.</p>
+  <details><summary>What I specifically did &amp; learnt</summary><ul class="work-list">
+    <li>Helped translate a creative concept into AI-assisted moving visuals and an edited film.</li>
+    <li>Worked on image-to-video generation and the final cut as part of the group submission.</li>
+    <li>Found that consistency between scenes and controlling object movement were more difficult than generating individually plausible images.</li>
+  </ul></details>
+  <div class="team-output"><span class="field-title">Group outcome</span><p><strong>91/100</strong> for the complete group digital artefact. This was the group's assessment mark, not an individual AI or editing grade.</p></div>
+  <div class="creative-media">
+    <a class="inline-link" href="https://www.linkedin.com/posts/hyunjung-kwak-21964b386_group-assignment-for-digital-artefact-ugcPost-7434254320335859712-yC92" target="_blank" rel="noopener noreferrer">▶ Watch the original group video on LinkedIn ↗</a>
+    <details class="creative-preview"><summary>Open embedded video preview</summary>
+      <div class="creative-embed"><iframe title="MSc group AI-assisted retail video on LinkedIn" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7434254320335859712" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      <p class="creative-note">If the LinkedIn embed is unavailable, use the original post link above. Playback depends on LinkedIn settings.</p>
+    </details>
+  </div>
+  <p class="scope-note"><strong>Evidence boundary:</strong> University group coursework and exploratory AI use, not paid AI production work. The final mark covers the team's complete artefact and does not measure individual technical proficiency.</p>
 </article></div>
   </div></section>
   <section class="section wrap" id="approach">
