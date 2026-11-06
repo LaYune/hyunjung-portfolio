@@ -5,6 +5,7 @@
 ## What changed from V3.1
 
 - Kept the existing restrained visual design and consistent case hierarchy.
+- Restored the original **MSc AI-Assisted Retail Video** as a fourth compact team-contribution case, with separate personal tasks, group-wide 91/100 assessment, learning limitation, a direct LinkedIn source link and optional embedded preview. The project is academic group work, not paid AI production.
 - Corrected Pathfinder copy to avoid implying general “Pathfinder” search interest validates international-student intent.
 - Added concise **Analytical judgement** panels for Lidl and FitFlop rather than inventing a brand performance finding.
 - Added Lidl source framing around the **12 weeks ending 17 May 2026** retailer-share snapshot, with competitor comparisons and different indicators correctly distinguished.
@@ -31,7 +32,7 @@ Candidate's latest confirmed details > `CANDIDATE_KNOWLEDGE_v2.8_2026-11-04.md` 
 
 - Separate paid employment, UK voluntary internship, independent projects, academic work and team proposals.
 - Keep metric attribution and scope, including Lingua retention, Kookje enrolments and IBM proposed £400k campaign budget.
-- One H1, eight individual case studies, three compact team cases, seven sections and valid/unique internal anchor targets checked during generation.
+- One H1, eight individual case studies, four compact team cases, seven sections and valid/unique internal anchor targets checked during generation.
 - Original `/v2/` and `/v3/` files untouched.
 - GitHub Pages build and real-device visual verification should be checked after publication.
 
