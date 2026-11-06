@@ -17,7 +17,7 @@
 
 ## Deliberately not fabricated
 
-- **JLY UK LTD**: no public employment card until the title, employment form, dates and personally attributable tasks are verified against current candidate evidence. This is a pending content gap, not a denial of real work.
+- Do not incorporate business, platform operations or career evidence from a different person’s conversations. Candidate employment must come from the candidate’s own verified CV and direct confirmations.
 - **Lidl / FitFlop visual results**: original export screenshots or .pbix/.pbit datasets are not available from the connected source set. No substitute screenshots, statistics or brand outcomes were invented. Linked portfolio material is provided where available.
 - The two market project panels state a defensible methodological **judgement**, not a verified empirical finding, actual commercial effect or tested recommendation.
 - No unsupported SQL, advanced Excel, paid media, GA4 workplace proficiency or project delivery was added.
