@@ -1,40 +1,53 @@
-# Portfolio V3 · Source-aligned review draft (6 November 2026)
+# Portfolio V3.1 | Evidence-first recruitment portfolio
 
-This new portfolio version is isolated in `/v3/`. The existing `/v2/`, root page, and all other files remain unchanged. The branch is for review, not a replacement for V2.
+Updated 6 November 2026. This version implements the approved company/project-first outline and is contained entirely within `/v3/`. **No root or `/v2/` files were edited.**
 
-## Source of truth
-- `UK_Job_Application_Master_v2.8_Project_Evidence_2026-11-04.docx`
-- `CANDIDATE_KNOWLEDGE_v2.8_2026-11-04.md`, especially the 4 Nov personal-contribution addendum
-- `UK_JOB_APPLICATION_PLAYBOOK_2026-11-04.md`
-- `HyunJung_Kwak_CV_Evidence_Led_v2.8_Project_Evidence_2026-11-04.docx`
-- `HyunJung_Kwak_CV_Traditional_v2.8_Project_Evidence_2026-11-04.docx`
-- Earlier version: `v2/index.html`, for structure and existing verified LinkedIn URLs
+## Reading order (consistent in every case)
 
-These source documents are **not copied into the public site**.
+**Company / Project → Core Capabilities → Main Contribution → What I Specifically Did → Output / Observed Outcome → Evidence Boundary**
 
-## Content changes from V2
-1. Hero emphasises analytical judgement rather than generic metrics or implied years of data-analysis experience.
-2. Main cases explain the question, individual work, judgement, next step, observed outcome and limits for Pathfinder, Lidl and education-sector paid roles.
-3. FitFlop, MODCASE, MSc qualitative/quantitative research and separate *What Is Home?* research are included with exact project types.
-4. IBM Green AI, L'Oréal SCENTIFY and Innisfree have personally verified contribution statements and explicit proposal-only limits.
-5. Full employment chronology and project distinctions are visible; V2's hypothetical KPI simulator is not presented as professional work.
-6. Accessible, mobile-friendly, self-contained HTML with no third-party dependencies; external LinkedIn project links are reused from V2.
+- Company/Project includes the real title, date and exact work type.
+- Capabilities are selected from personally supported work.
+- Main contribution separates personal ownership from team output.
+- Detailed work includes concrete actions and source limitations.
+- Output distinguishes observed results, deliverables and unimplemented plans.
 
-## Review safeguards
-- Lingua retention belongs only to the assigned ~50 learner/family portfolio; no claimed causation.
-- Kookje ~15% concerns new enrolments in an assigned area over one year; not an individual causal claim.
-- Skill/chapter method is verified cross-role but employer assignment remains unconfirmed.
-- IBM £400k is a team-proposed engagement budget, not spending.
-- L'Oréal team KPIs and LTV narrative are not individual financial modelling.
-- Innisfree country-level findings are proposal hypotheses, not proven representative research.
-- MODCASE model/revenue shares are hypothetical, not sales.
-- Lidl and FitFlop are public-data, independently scoped analytical exercises, not client engagements.
+## Page sections
 
-## Outstanding before public release
-- Candidate review of factual copy and contact links.
-- Confirm any change to degree/visa status; only degree-pending language is currently included, no permission-to-work promise.
-- If adding JLY UK LTD as a career entry, verify role, employment type, dates and specific responsibilities first.
-- Responsive/browser review and external link checks.
+1. Hero: what the candidate does, without misleading years-of-analysis statistics.
+2. Professional experience: Pathfinder (UK voluntary internship), Lingua (paid) and Kookje (paid). Each employer has a separate case.
+3. Independent market analysis: Lidl GB and FitFlop UK Power BI portfolios, explicitly not client or employee work.
+4. Consumer research and commercial projects: MSc research, the separate *What Is Home?* project and independently developed MODCASE.
+5. Team contributions: IBM Green AI, L’Oréal SCENTIFY and Innisfree with verified personal contributions and team-output boundaries.
+6. Analytical approach: define, compare, diagnose, communicate and follow up.
+7. Background and contact: chronology, qualifications, tool levels, evidence/IP boundaries and LinkedIn.
 
-## Local preview
-Open `index.html` directly in a modern browser. No build step required.
+## Verified-source precedence
+
+- Most recent explicit candidate confirmations.
+- `CANDIDATE_KNOWLEDGE_v2.8_2026-11-04.md`, especially the primary-artefact/personal-contribution addendum.
+- `UK_JOB_APPLICATION_PLAYBOOK_2026-11-04.md`.
+- `UK_Job_Application_Master_v2.8_Project_Evidence_2026-11-04.docx`.
+- `HyunJung_Kwak_CV_Evidence_Led_v2.8_Project_Evidence_2026-11-04.docx` and latest Traditional baseline.
+- Original V2 page for prior project/contact links and visual continuity.
+
+These source documents are references only; they are not published to the website.
+
+## Key integrity boundaries
+
+- Lingua ~95–100% retention: observed within the ~50 assigned learner/family portfolio, not a causal claim.
+- Kookje ~15% new-enrolment increase: assigned area over one year, not solely caused by the candidate.
+- Skill/chapter segmentation across paid teaching roles: exact employer remains unconfirmed; not placed under a named employer.
+- Lidl/FitFlop: independent projects using public information; no internal metrics, tested recommendations or commercial uplift.
+- IBM £400k: a proposed team engagement/campaign budget, not executed spend.
+- L’Oréal: team KPIs and LTV statements are not personal financial models.
+- Innisfree: global/local assumptions are not representative population data; event label remains unverified.
+- MODCASE: commercial model and potential sales channels are proposals, not realised revenue.
+- MSc research and Pathfinder interviews are distinct projects; none is relabelled as paid professional research.
+
+## QA
+
+- Structure checked: one H1, seven primary sections, eight detailed individual cases, three team contribution cards.
+- All in-page navigation IDs exist and are unique.
+- Pure static HTML and CSS; no tracking scripts or private project source files.
+- **Manual visual testing across browsers and real devices is still advisable before using the URL as the default application link.**
